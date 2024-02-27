@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <script src="script.js" defer></script>
+    <title>TICKETHACK</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="nav-logo" class="navlink">TICKETHACK</div>
+        <div id="navlinks">
+            <div id="nav-cart" class="navlink">cart</div>
+            <div id="nav-bookings" class="navlink">bookings</div>
+        </div>
+    </nav>
+    <div id="main-container">
+        <div id="message"></div>
+        <div id="search">
+            <div id="search-container">
+                <form id="search-form">
+                    <input id="departure" type="text" placeholder="Departure">
+                    <input id="arrival" type="text" placeholder="Arrival">
+                    <input id="date" type="date">
+                </form>
+                <button id="search-button">SEARCH</button>
+            </div>
+            <div id="search-results" class="results-container">
+            </div>
+        </div>
+        <div id="cart">
+            <div id="cart-results" class="results-container">
+            </div>
+            <div id="total-container">
+            </div>
+        </div>
+        <div id="bookings">
+            <div id="bookings-results" class="results-container">
+                <div class="cart-item-container">
+                    <div class="departure-arrival">Paris > Lyon</div>
+                    <div class="price">18€</div>
+                    <div class="delay">Departure in ... minutes</div>
+                </div>
+                <div class="cart-item-container">
+                    <div class="departure-arrival">Paris > Lyon</div>
+                    <div class="price">18€</div>
+                    <div class="delay">Departure in ... minutes</div>
+                </div>
+                <div class="cart-item-container">
+                    <div class="departure-arrival">Paris > Lyon</div>
+                    <div class="price">18€</div>
+                    <div class="delay">Departure in ... minutes</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
